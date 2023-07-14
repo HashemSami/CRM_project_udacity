@@ -144,7 +144,7 @@ example API return:
 }
 ```
 
-#### Get Customer:
+#### Delete Customer:
 
 `/customers/{id}`
 
