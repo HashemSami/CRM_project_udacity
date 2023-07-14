@@ -19,7 +19,7 @@ This project allows users to make API requests to a backend server to interact w
 - #### Install GO:
   - Download the latest version of Go
 
-Note: you need to have newer versions of Go (1.18 and above) to be able to run the project without issues, as this project is leveraging Go workspaces feature which enables you to run the project with multiple modules.
+> **_Note:_** you need to have newer versions of Go (1.18 and above) to be able to run the project without issues, as this project is leveraging Go workspaces feature which enables you to run the project with multiple modules.
 
 - #### Clone Github repo
 
