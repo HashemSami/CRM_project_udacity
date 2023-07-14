@@ -85,6 +85,162 @@
         </div>
       </div>
 
+      <div class="row shadow p-4 mb-4 bg-white">
+        <div class="col-sm-3 text-primary">
+          <h3>API</h3>
+        </div>
+        <div class="col-sm-9">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h4>Get Customers</h4>
+              <p><code class="mb-2">/customers</code></p>
+              <p>Method: <code>GET</code></p>
+              <p>Description: Get all Customers from database.</p>
+              <p>
+                example API return:
+              <pre>
+                <code>
+                  {
+                    "id": "1",
+                    "name": "Hashem",
+                    "role": "employee",
+                    "email": "test@test.com",
+                    "phone": 12216695,
+                    "contacted": true
+                  }
+                </code>
+              </pre>
+              </p>
+
+            </li>
+
+            <li class="list-group-item">
+              <h4>Get Customer</h4>
+              <p><code class="mb-2">/customers/{id}</code></p>
+              <p>Method: <code>GET</code></p>
+              <p>Description: Get a Customer that has the path id.</p>
+              <p>
+                example API return:
+              <pre>
+                <code>
+                  {
+                    "id": "1",
+                    "name": "Hashem",
+                    "role": "employee",
+                    "email": "test@test.com",
+                    "phone": 12216695,
+                    "contacted": true
+                  }
+                </code>
+              </pre>
+              </p>
+
+            </li>
+
+            <li class="list-group-item">
+              <h4>Create Customer</h4>
+              <p><code class="mb-2">/customers</code></p>
+              <p>Method: <code>POST</code></p>
+              <p>Description: Create new Customer in the database.</p>
+              <p>
+                example POST Body:
+              <pre>
+                <code>
+                  {
+                    "id": "1",
+                    "name": "Hashem",
+                    "role": "employee",
+                    "email": "test@test.com",
+                    "phone": 12216695,
+                    "contacted": true
+                  }
+                </code>
+              </pre>
+              </p>
+              <p>
+                example API return:
+              <pre>
+                <code>
+                  {
+                    "id": "1",
+                    "name": "Hashem",
+                    "role": "employee",
+                    "email": "test@test.com",
+                    "phone": 12216695,
+                    "contacted": true
+                  }
+                </code>
+              </pre>
+              </p>
+
+            </li>
+
+            <li class="list-group-item">
+              <h4>Update Customer</h4>
+              <p><code class="mb-2">/customers/{id}</code></p>
+              <p>Method: <code>PATCH</code></p>
+              <p>Description: Update data for Customers in the database.</p>
+              <p>
+                example PATCH Body:
+              <pre>
+                <code>
+                  {
+                    "id": "1",
+                    "name": "Hashem",
+                    "role": "employee",
+                    "email": "test@test.com",
+                    "phone": 12216695,
+                    "contacted": true
+                  }
+                </code>
+              </pre>
+              </p>
+              <p>
+                example API return:
+              <pre>
+                <code>
+                  {
+                    "id": "1",
+                    "name": "Hashem",
+                    "role": "employee",
+                    "email": "test@test.com",
+                    "phone": 12216695,
+                    "contacted": true
+                  }
+                </code>
+              </pre>
+              </p>
+
+            </li>
+
+            <li class="list-group-item">
+              <h4>Delete Customers</h4>
+              <p><code class="mb-2">/customers/{id}</code></p>
+              <p>Method: <code>DELETE</code></p>
+              <p>Description: Delete a Customer from database.</p>
+              <p>
+                example API return:
+              <pre>
+                <code>
+                  {
+                    "id": "1",
+                    "name": "Hashem",
+                    "role": "employee",
+                    "email": "test@test.com",
+                    "phone": 12216695,
+                    "contacted": true
+                  }
+                </code>
+              </pre>
+              </p>
+
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

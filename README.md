@@ -31,3 +31,136 @@ This project allows users to make API requests to a backend server to interact w
   ```bash
   go run github.com/hashemsami/crm_project_udacity
   ```
+
+## API:
+
+#### Get Customers:
+
+`/customers`
+
+Method: `GET`
+
+Description: Get all Customers from database.
+
+example API return:
+
+```bash
+{
+    "id": "1",
+    "name": "Hashem",
+    "role": "employee",
+    "email": "test@test.com",
+    "phone": 12216695,
+    "contacted": true
+}
+```
+
+#### Get Customer:
+
+`/customers/{id}`
+
+Method: `GET`
+
+Description: Get a Customer that has the path id.
+
+example API return:
+
+```bash
+{
+    "id": "1",
+    "name": "Hashem",
+    "role": "employee",
+    "email": "test@test.com",
+    "phone": 12216695,
+    "contacted": true
+}
+```
+
+#### Create Customer:
+
+`/customers`
+
+Method: `POST`
+
+Description: Create new Customer in the database.
+
+example POST Body:
+
+```bash
+{
+    "id": "1",
+    "name": "Hashem",
+    "role": "employee",
+    "email": "test@test.com",
+    "phone": 12216695,
+    "contacted": true
+}
+```
+
+example API return:
+
+```bash
+{
+    "id": "1",
+    "name": "Hashem",
+    "role": "employee",
+    "email": "test@test.com",
+    "phone": 12216695,
+    "contacted": true
+}
+```
+
+#### Update Customer:
+
+`/customers/{id}`
+
+Method: `PATCH`
+
+Description: Update data for Customers in the database.
+
+example PATCH Body:
+
+```bash
+{
+    "id": "1",
+    "name": "Hashem",
+    "role": "employee",
+    "email": "test@test.com",
+    "phone": 12216695,
+    "contacted": true
+}
+```
+
+example API return:
+
+```bash
+{
+    "id": "1",
+    "name": "Hashem",
+    "role": "employee",
+    "email": "test@test.com",
+    "phone": 12216695,
+    "contacted": true
+}
+```
+
+#### Get Customer:
+
+`/customers/{id}`
+
+Method: `DELETE`
+
+Description: Delete a Customer from database.
+
+example API return:
+
+```bash
+{
+    "id": "1",
+    "name": "Hashem",
+    "role": "employee",
+    "email": "test@test.com",
+    "phone": 12216695,
+    "contacted": true
+}
+```
